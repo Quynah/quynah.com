@@ -84,12 +84,12 @@
         </div>
     </section>
 
-    <!-- Evidence Pipeline Section -->
+    <!-- Data Collection Pipeline Section -->
     <section id="pipeline" class="section section-alt section-pipeline">
         <div class="container">
-            <h2 class="section-title">The Quynah Evidence Pipeline</h2>
+            <h2 class="section-title">The Quynah Data Collection Pipeline</h2>
             <p class="section-subtitle">
-                Quynah's evidence pipeline operates across three modes: full baseline collectors, incremental updates via Google change tokens, and real-time Pub/Sub ingestion. This ensures low-latency insights, continuous security posture monitoring, and complete historical auditability.
+                Quynah's data collection pipeline operates across three modes: full baseline collectors, incremental updates using Google change tokens, and real-time Pub/Sub ingestion. These mechanisms provide complete Workspace coverage with efficient, low-latency data retrieval across all services.
             </p>
             
             <div class="pipeline-cards">
@@ -128,6 +128,50 @@
                 <div class="pipeline-stage">
                     <div class="pipeline-box">Actions</div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Evidence Pipeline Section -->
+    <section id="evidence-pipeline" class="section section-alt">
+        <div class="container">
+            <header class="section-header">
+                <h2 class="section-title">The Quynah Evidence Pipeline</h2>
+                <p class="section-subtitle">After data is collected, Quynah transforms it into structured, verifiable evidence. All evidence in Quynah follows the same model: NDJSON output, SHA-256 hashing, gzip compression, manifest metadata, and per-tenant isolation.</p>
+            </header>
+
+            <div class="evidence-pipeline-grid">
+
+                <div class="card evidence-step">
+                    <h3>NDJSON Format</h3>
+                    <p>All evidence is stored as line-based NDJSON. This makes every record individually parseable and streaming-friendly for analysis, auditing and SIEM ingestion.</p>
+                </div>
+
+                <div class="card evidence-step">
+                    <h3>SHA-256 Integrity Hashes</h3>
+                    <p>Each evidence file is hashed before compression. Hashes are stored in a manifest, ensuring verifiable integrity for audits and cross-system verification.</p>
+                </div>
+
+                <div class="card evidence-step">
+                    <h3>GZIP Compression</h3>
+                    <p>Evidence files are compressed using gzip to reduce storage footprint and improve transfer efficiency. Compression never affects hashing integrity.</p>
+                </div>
+
+                <div class="card evidence-step">
+                    <h3>Manifest Metadata</h3>
+                    <p>Every run produces a manifest containing timestamps, totals, module details, hashes, and processing information. Manifests are also stored as NDJSON.</p>
+                </div>
+
+                <div class="card evidence-step">
+                    <h3>Per-Tenant Isolation</h3>
+                    <p>Evidence is never shared across tenants. Each tenant has its own evidence tree, ensuring privacy, compliance, and strict separation between environments.</p>
+                </div>
+
+                <div class="card evidence-step">
+                    <h3>SIEM Compatibility</h3>
+                    <p>Because evidence is structured and line-based, Quynah can export or stream evidence into SIEM platforms without transformation scripts or intermediate layers.</p>
+                </div>
+
             </div>
         </div>
     </section>

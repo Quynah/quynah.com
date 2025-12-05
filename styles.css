@@ -366,6 +366,26 @@ body {
 }
 
 /* ============================
+   Evidence Pipeline Section
+   ============================ */
+
+.evidence-pipeline-grid {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    margin-top: 40px;
+}
+
+.evidence-step h3 {
+    color: var(--qy-header-text);
+    margin-bottom: 8px;
+}
+
+.evidence-step p {
+    color: var(--qy-body-text);
+}
+
+/* ============================
    Dashboard Section
    ============================ */
 
