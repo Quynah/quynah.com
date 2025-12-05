@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quynah — Local-First Security Platform for Google Workspace</title>
-    <meta name="description" content="Quynah stores, processes, and analyzes all Google Workspace evidence entirely within your own environment. No external data storage. Full auditability and privacy compliance.">
+    <title>Quynah — The Multi-Tenant, Local-First Security Platform for Google Workspace</title>
+    <meta name="description" content="Quynah is a multi-tenant, local-first security platform for Google Workspace. It processes collectors, incremental updates, and Pub/Sub events per tenant, delivering continuous analysis, automated remediation, and complete evidence ownership.">
     
     <!-- OpenGraph Tags -->
-    <meta property="og:title" content="Quynah — Local-First Security Platform for Google Workspace">
-    <meta property="og:description" content="Continuous security monitoring for Google Workspace with local-first architecture, automated remediation, and AI-assisted investigations.">
+    <meta property="og:title" content="Quynah — The Multi-Tenant, Local-First Security Platform for Google Workspace">
+    <meta property="og:description" content="Quynah is a multi-tenant, local-first security platform for Google Workspace. It processes collectors, incremental updates, and Pub/Sub events per tenant, delivering continuous analysis, automated remediation, and complete evidence ownership.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://quynah.com">
     <meta property="og:image" content="https://quynah.com/assets/dashboard.png">
@@ -37,6 +37,7 @@
                     <a href="#home" class="nav-link">Home</a>
                     <a href="#features" class="nav-link">Features</a>
                     <a href="#pipeline" class="nav-link">Pipeline</a>
+                    <a href="#multitenant" class="nav-link">Multi-Tenant</a>
                     <a href="#dashboard" class="nav-link">Dashboard Preview</a>
                     <a href="mailto:david@quynah.com" class="nav-link contact-link">Contact</a>
                 </nav>
@@ -48,12 +49,24 @@
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1 class="hero-title">The Local-First Security Platform for Google Workspace</h1>
-                <p class="hero-subtitle">Collectors → Incrementals → Pub/Sub → Continuous Analysis → Automated Remediation</p>
+                <h1 class="hero-title">The Multi-Tenant, Local-First Security Platform for Google Workspace</h1>
+                <p class="hero-subtitle">Collectors → Incrementals → Pub/Sub → Continuous Analysis → Automated Remediation → Evidence-Driven Multi-Tenant Management</p>
                 <div class="hero-buttons">
                     <a href="#features" class="btn btn-primary">Learn More</a>
                     <a href="mailto:david@quynah.com" class="btn btn-secondary">Contact</a>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Multi-Tenant Section -->
+    <section id="multitenant" class="section section-alt section-multitenant">
+        <div class="container">
+            <div class="multitenant-card">
+                <h2 class="section-title">Multi-Tenant by Design</h2>
+                <p class="section-text">
+                    Quynah isolates and processes evidence per tenant, enabling MSPs, security partners, and enterprises to manage multiple Google Workspace environments from a single console — with strict data boundaries, full auditability, individual pipeline modes, and full privacy isolation.
+                </p>
             </div>
         </div>
     </section>
@@ -63,18 +76,17 @@
         <div class="container">
             <h2 class="section-title">Local-First by Design</h2>
             <p class="section-text">
-                Quynah stores, processes, and analyzes all Google Workspace evidence entirely within the customer's own environment.
-                No external data storage. No vendor lock-in. Full auditability and privacy compliance.
+                Quynah processes all Workspace evidence within the customer's own environment — never externally. Every tenant maintains its own isolated collectors, analyzers, evidence store, and operational mode. No vendor lock-in. Full auditability. Zero data sharing across tenants.
             </p>
         </div>
     </section>
 
     <!-- Evidence Pipeline Section -->
-    <section id="pipeline" class="section section-pipeline">
+    <section id="pipeline" class="section section-alt section-pipeline">
         <div class="container">
             <h2 class="section-title">The Quynah Evidence Pipeline</h2>
             <p class="section-subtitle">
-                Quynah processes Workspace signals through a three-stage pipeline for continuous, low-latency security posture monitoring.
+                Quynah's evidence pipeline operates across three modes: full baseline collectors, incremental updates via Google change tokens, and real-time Pub/Sub ingestion. This ensures low-latency insights, continuous security posture monitoring, and complete historical auditability.
             </p>
             
             <div class="pipeline-cards">
@@ -126,7 +138,7 @@
                 <div class="card feature-card">
                     <h3 class="card-title">Comprehensive Workspace Coverage</h3>
                     <p class="card-text">
-                        Users, Devices, Drive, Admins, Groups, OAuth, Alerts — 80+ collectors, 140+ analyzers.
+                        Users, Devices, Drive, Admins, Groups, OAuth, Alerts — 80+ collectors, 130+ analyzers.
                     </p>
                 </div>
                 <div class="card feature-card">
@@ -146,7 +158,7 @@
     </section>
 
     <!-- Dashboard Preview Section -->
-    <section id="dashboard" class="section section-dashboard">
+    <section id="dashboard" class="section section-alt section-dashboard">
         <div class="container">
             <div class="dashboard-container">
                 <h2 class="section-title">A Live View of Your Workspace Security</h2>
@@ -155,11 +167,13 @@
                     critical events, and device posture in a single interface.
                 </p>
                 <div class="dashboard-preview-wrapper">
-                    <img 
-                        src="assets/dashboard.png" 
-                        alt="Quynah Security Hub dashboard preview" 
-                        class="dashboard-preview"
-                    />
+                    <div class="screenshot-frame">
+                        <img 
+                            src="assets/dashboard.png" 
+                            alt="Quynah Security Hub dashboard preview" 
+                            class="dashboard-preview"
+                        />
+                    </div>
                 </div>
             </div>
         </div>
@@ -170,11 +184,11 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-links">
-                    <a href="#privacy" class="footer-link">Privacy</a>
-                    <a href="#terms" class="footer-link">Terms</a>
                     <a href="mailto:david@quynah.com" class="footer-link">Contact</a>
+                    <a href="https://github.com/Quynah" class="footer-link" target="_blank" rel="noopener">GitHub</a>
+                    <a href="#privacy" class="footer-link">Privacy</a>
                 </div>
-                <p class="footer-copyright">© 2025 Quynah — A Skyrah Solution</p>
+                <p class="footer-copyright">© 2025 Quynah Security Platform — Evidence-Driven. Multi-Tenant. Local-First.</p>
             </div>
         </div>
     </footer>
