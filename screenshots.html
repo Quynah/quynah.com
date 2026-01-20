@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/photoswipe@5/dist/photoswipe.css">
 </head>
 <body>
     <header class="header">
@@ -47,246 +48,169 @@
     <section class="section section-alt">
         <div class="container">
             <h2 class="section-title">Gallery</h2>
-            <p class="section-subtitle">Click any screenshot to open the full-resolution image.</p>
+            <p class="section-subtitle">Screenshots are organized exactly like the product navigation. Click any thumbnail to open the lightbox and browse within its section.</p>
 
-            <div class="screenshots-grid">
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/01%20Dashboard%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/01%20Dashboard%20Quynah.png" alt="Dashboard overview">
-                    </a>
-                    <figcaption class="screenshot-caption">Dashboard overview</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/02%20Users%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/02%20Users%20Quynah.png" alt="Users inventory">
-                    </a>
-                    <figcaption class="screenshot-caption">Users inventory</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/03%20Groups%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/03%20Groups%20Quynah.png" alt="Groups management">
-                    </a>
-                    <figcaption class="screenshot-caption">Groups management</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/04%20Organization%20Units%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/04%20Organization%20Units%20Quynah.png" alt="Organization units">
-                    </a>
-                    <figcaption class="screenshot-caption">Organization units</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/05%20Domains%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/05%20Domains%20Quynah.png" alt="Domains overview">
-                    </a>
-                    <figcaption class="screenshot-caption">Domains overview</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/06%20Contacts%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/06%20Contacts%20Quynah.png" alt="Contacts view">
-                    </a>
-                    <figcaption class="screenshot-caption">Contacts view</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/07%20Contacts%20Quynah%20Specs%20PII%20Masked.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/07%20Contacts%20Quynah%20Specs%20PII%20Masked.png" alt="Contact details with PII masked">
-                    </a>
-                    <figcaption class="screenshot-caption">Contact details with PII masked</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/08%20Licenses%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/08%20Licenses%20Quynah.png" alt="Licenses">
-                    </a>
-                    <figcaption class="screenshot-caption">Licenses</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/09%20Admin%20Roles%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/09%20Admin%20Roles%20Quynah.png" alt="Admin roles">
-                    </a>
-                    <figcaption class="screenshot-caption">Admin roles</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/10%20ChromeOS%20Devices%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/10%20ChromeOS%20Devices%20Quynah.png" alt="ChromeOS devices">
-                    </a>
-                    <figcaption class="screenshot-caption">ChromeOS devices</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/11%20Desktop%20Devices%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/11%20Desktop%20Devices%20Quynah.png" alt="Desktop devices">
-                    </a>
-                    <figcaption class="screenshot-caption">Desktop devices</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/12%20Mobile%20Devices%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/12%20Mobile%20Devices%20Quynah.png" alt="Mobile devices">
-                    </a>
-                    <figcaption class="screenshot-caption">Mobile devices</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/13%20Drive%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/13%20Drive%20Quynah.png" alt="Drive activity">
-                    </a>
-                    <figcaption class="screenshot-caption">Drive activity</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/14%20Domain%20Wide%20Delegation%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/14%20Domain%20Wide%20Delegation%20Quynah.png" alt="Domain-wide delegation">
-                    </a>
-                    <figcaption class="screenshot-caption">Domain-wide delegation</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/15%20Marketplace%20Apps%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/15%20Marketplace%20Apps%20Quynah.png" alt="Marketplace apps">
-                    </a>
-                    <figcaption class="screenshot-caption">Marketplace apps</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/16%20Analyzer%20Overview%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/16%20Analyzer%20Overview%20Quynah.png" alt="Analyzer overview">
-                    </a>
-                    <figcaption class="screenshot-caption">Analyzer overview</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/17%20Consolidated%20Report%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/17%20Consolidated%20Report%20Quynah.png" alt="Consolidated report">
-                    </a>
-                    <figcaption class="screenshot-caption">Consolidated report</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/18%20Evidence%20Viewer%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/18%20Evidence%20Viewer%20Quynah.png" alt="Evidence viewer">
-                    </a>
-                    <figcaption class="screenshot-caption">Evidence viewer</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/19%20Policy%20Compliance%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/19%20Policy%20Compliance%20Quynah.png" alt="Policy compliance">
-                    </a>
-                    <figcaption class="screenshot-caption">Policy compliance</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/20%20Domain%20Wide%20Delegation%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/20%20Domain%20Wide%20Delegation%20Quynah.png" alt="Domain-wide delegation scopes">
-                    </a>
-                    <figcaption class="screenshot-caption">Domain-wide delegation scopes</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/21%20OAuth%20App%20Risk%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/21%20OAuth%20App%20Risk%20Quynah.png" alt="OAuth app risk">
-                    </a>
-                    <figcaption class="screenshot-caption">OAuth app risk</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/22%20Login%20&%20Risk%20Events%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/22%20Login%20&%20Risk%20Events%20Quynah.png" alt="Login and risk events">
-                    </a>
-                    <figcaption class="screenshot-caption">Login and risk events</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/23%20Automations%20Overview%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/23%20Automations%20Overview%20Quynah.png" alt="Automations overview">
-                    </a>
-                    <figcaption class="screenshot-caption">Automations overview</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/24%20Automations%20Workflows%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/24%20Automations%20Workflows%20Quynah.png" alt="Automation workflows">
-                    </a>
-                    <figcaption class="screenshot-caption">Automation workflows</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/25%20Automations%20Triggers%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/25%20Automations%20Triggers%20Quynah.png" alt="Automation triggers">
-                    </a>
-                    <figcaption class="screenshot-caption">Automation triggers</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/26%20PubSub%20Events%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/26%20PubSub%20Events%20Quynah.png" alt="Pub/Sub events">
-                    </a>
-                    <figcaption class="screenshot-caption">Pub/Sub events</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/27%20Extractors%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/27%20Extractors%20Quynah.png" alt="Extractors">
-                    </a>
-                    <figcaption class="screenshot-caption">Extractors</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/28%20Router%20Fan%20Out%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/28%20Router%20Fan%20Out%20Quynah.png" alt="Router fan-out">
-                    </a>
-                    <figcaption class="screenshot-caption">Router fan-out</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/29%20HTML%20Reports%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/29%20HTML%20Reports%20Quynah.png" alt="HTML reports">
-                    </a>
-                    <figcaption class="screenshot-caption">HTML reports</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/30%20JSON%20Manifests%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/30%20JSON%20Manifests%20Quynah.png" alt="JSON manifests">
-                    </a>
-                    <figcaption class="screenshot-caption">JSON manifests</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/31%20Trendlines%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/31%20Trendlines%20Quynah.png" alt="Trendlines">
-                    </a>
-                    <figcaption class="screenshot-caption">Trendlines</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/32%20State%20Machine%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/32%20State%20Machine%20Quynah.png" alt="State machine">
-                    </a>
-                    <figcaption class="screenshot-caption">State machine</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/33%20Run%20History%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/33%20Run%20History%20Quynah.png" alt="Run history">
-                    </a>
-                    <figcaption class="screenshot-caption">Run history</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/34%20Job%20Queue%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/34%20Job%20Queue%20Quynah.png" alt="Job queue">
-                    </a>
-                    <figcaption class="screenshot-caption">Job queue</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/35%20Incremental%20Cycles%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/35%20Incremental%20Cycles%20Quynah.png" alt="Incremental cycles">
-                    </a>
-                    <figcaption class="screenshot-caption">Incremental cycles</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/36%20Flow%20&%20Shield%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/36%20Flow%20&%20Shield%20Quynah.png" alt="Flow and Shield">
-                    </a>
-                    <figcaption class="screenshot-caption">Flow and Shield</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/37%20Secrets%20&%20Dependencies%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/37%20Secrets%20&%20Dependencies%20Quynah.png" alt="Secrets and dependencies">
-                    </a>
-                    <figcaption class="screenshot-caption">Secrets and dependencies</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/38%20Billing%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/38%20Billing%20Quynah.png" alt="Billing">
-                    </a>
-                    <figcaption class="screenshot-caption">Billing</figcaption>
-                </figure>
-                <figure class="screenshot-card">
-                    <a class="screenshot-link" href="assets/Screenshots%20Quynah%20UI/39%20Account%20Quynah.png" target="_blank" rel="noopener">
-                        <img class="screenshot-img" src="assets/Screenshots%20Quynah%20UI/39%20Account%20Quynah.png" alt="Account settings">
-                    </a>
-                    <figcaption class="screenshot-caption">Account settings</figcaption>
-                </figure>
-            </div>
+            <div id="gallery-status" class="gallery-status">Loading screenshots…</div>
+            <div id="gallery-sections" class="gallery-sections" hidden></div>
         </div>
     </section>
+
+    <script src="assets/screenshots-manifest.js"></script>
+    <script type="module">
+        import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe@5/dist/photoswipe-lightbox.esm.js';
+
+        const statusEl = document.getElementById('gallery-status');
+        const sectionsEl = document.getElementById('gallery-sections');
+
+        const setStatus = (message) => {
+            statusEl.textContent = message;
+            statusEl.hidden = false;
+            sectionsEl.hidden = true;
+        };
+
+        const humanize = (text = '') => {
+            const cleaned = text
+                .replace(/^\d+\s*[.-]?\s*/, '') // strip leading numbering like "01 " or "01-"
+                .replace(/[-_]+/g, ' ')
+                .replace(/\s+/g, ' ')
+                .trim();
+            if (!cleaned) return '';
+            return cleaned.charAt(0).toUpperCase() + cleaned.slice(1);
+        };
+
+        const slugify = (text = '') => text.toLowerCase()
+            .replace(/[^a-z0-9]+/g, '-')
+            .replace(/(^-|-$)/g, '') || 'gallery';
+
+        const encodePath = (value = '') => encodeURI(value.replace(/\\/g, '/'));
+
+        const buildCard = (image, galleryId, blockTitle) => {
+            const figure = document.createElement('figure');
+            figure.className = 'screenshot-card';
+
+            const link = document.createElement('a');
+            link.className = 'screenshot-link';
+            link.href = encodePath(image.src || '');
+            link.setAttribute('data-pswp', 'true');
+            link.dataset.galleryId = galleryId;
+            link.dataset.pswpSrc = encodePath(image.src || '');
+            link.dataset.pswpWidth = '1600';
+            link.dataset.pswpHeight = '900';
+
+            const img = document.createElement('img');
+            img.className = 'screenshot-img';
+            img.loading = 'lazy';
+            img.decoding = 'async';
+            img.src = encodePath(image.src || '');
+            img.alt = humanize(image.filename?.replace(/\.[^.]+$/, '')) || blockTitle || 'Screenshot';
+            img.addEventListener('load', () => {
+                if (img.naturalWidth && img.naturalHeight) {
+                    link.dataset.pswpWidth = img.naturalWidth;
+                    link.dataset.pswpHeight = img.naturalHeight;
+                }
+            });
+
+            const caption = document.createElement('figcaption');
+            caption.className = 'screenshot-caption';
+            caption.textContent = img.alt;
+
+            link.appendChild(img);
+            figure.appendChild(link);
+            figure.appendChild(caption);
+            return figure;
+        };
+
+        const renderSections = (manifest) => {
+            if (!Array.isArray(manifest) || manifest.length === 0) {
+                setStatus('No screenshots found. Make sure the assets/New Screenshots Quynah UI folder is populated.');
+                return;
+            }
+
+            sectionsEl.innerHTML = '';
+            const grouped = new Map();
+
+            manifest.forEach((section) => {
+                const titles = Array.isArray(section.titles) ? section.titles : [];
+                const top = titles[0];
+                if (!top) return;
+                if (!grouped.has(top)) grouped.set(top, []);
+                grouped.get(top).push(section);
+            });
+
+            grouped.forEach((blocks, topTitle) => {
+                const sectionEl = document.createElement('section');
+                sectionEl.className = 'gallery-section';
+
+                const sectionTitle = document.createElement('h3');
+                sectionTitle.className = 'gallery-section-title';
+                sectionTitle.textContent = humanize(topTitle);
+                sectionEl.appendChild(sectionTitle);
+
+                blocks.forEach((block) => {
+                    if (!block.images || block.images.length === 0) return;
+
+                    const blockEl = document.createElement('div');
+                    blockEl.className = 'gallery-block';
+
+                    const blockPath = Array.isArray(block.titles) ? block.titles : [];
+                    const blockTitleText = (blockPath.slice(1).map(humanize).join(' / ')) || humanize(topTitle);
+
+                    const blockTitleEl = document.createElement('h4');
+                    blockTitleEl.className = 'gallery-block-title';
+                    blockTitleEl.textContent = blockTitleText;
+
+                    const breadcrumbEl = document.createElement('p');
+                    breadcrumbEl.className = 'gallery-breadcrumb';
+                    breadcrumbEl.textContent = blockPath.map(humanize).join(' / ');
+
+                    const grid = document.createElement('div');
+                    grid.className = 'gallery-grid';
+                    grid.dataset.sectionPath = block.sectionPath || blockTitleText;
+
+                    const galleryId = slugify(block.sectionPath || blockTitleText);
+                    block.images.forEach((image) => {
+                        grid.appendChild(buildCard(image, galleryId, blockTitleText));
+                    });
+
+                    blockEl.appendChild(blockTitleEl);
+                    blockEl.appendChild(breadcrumbEl);
+                    blockEl.appendChild(grid);
+                    sectionEl.appendChild(blockEl);
+                });
+
+                sectionsEl.appendChild(sectionEl);
+            });
+
+            statusEl.hidden = true;
+            sectionsEl.hidden = false;
+
+            const lightbox = new PhotoSwipeLightbox({
+                gallery: '.gallery-grid',
+                children: 'a[data-pswp]',
+                pswpModule: () => import('https://unpkg.com/photoswipe@5/dist/photoswipe.esm.js'),
+            });
+            lightbox.init();
+        };
+
+        const loadManifest = async () => {
+            if (Array.isArray(window.SCREENSHOTS_MANIFEST)) {
+                renderSections(window.SCREENSHOTS_MANIFEST);
+                return;
+            }
+
+            try {
+                const response = await fetch('assets/screenshots-manifest.json', { cache: 'no-store' });
+                if (!response.ok) throw new Error(`Failed to load manifest: ${response.status}`);
+                const manifest = await response.json();
+                renderSections(manifest);
+            } catch (error) {
+                console.error(error);
+                setStatus('Could not load screenshots. Ensure assets/screenshots-manifest.js or assets/screenshots-manifest.json is present.');
+            }
+        };
+
+        loadManifest();
+    </script>
 
     <footer class="footer">
         <div class="container">

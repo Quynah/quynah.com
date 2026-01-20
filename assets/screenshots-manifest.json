@@ -1,0 +1,493 @@
+﻿[
+    {
+        "sectionPath":  "01 Overview \u0026 Posture/01 Dashboard",
+        "titles":  [
+                       "01 Overview \u0026 Posture",
+                       "01 Dashboard"
+                   ],
+        "images":  [
+                       {
+                           "filename":  "01 Dashboard.png",
+                           "src":  "assets/New Screenshots Quynah UI/01 Overview \u0026 Posture/01 Dashboard/01 Dashboard.png"
+                       }
+                   ]
+    },
+    {
+        "sectionPath":  "01 Overview \u0026 Posture/05 Domains",
+        "titles":  [
+                       "01 Overview \u0026 Posture",
+                       "05 Domains"
+                   ],
+        "images":  [
+                       {
+                           "filename":  "01 Domains.png",
+                           "src":  "assets/New Screenshots Quynah UI/01 Overview \u0026 Posture/05 Domains/01 Domains.png"
+                       },
+                       {
+                           "filename":  "02 Domains.png",
+                           "src":  "assets/New Screenshots Quynah UI/01 Overview \u0026 Posture/05 Domains/02 Domains.png"
+                       }
+                   ]
+    },
+    {
+        "sectionPath":  "02 Identity \u0026 Access/01 Users",
+        "titles":  [
+                       "02 Identity \u0026 Access",
+                       "01 Users"
+                   ],
+        "images":  [
+                       {
+                           "filename":  "01 Users Quynah.png",
+                           "src":  "assets/New Screenshots Quynah UI/02 Identity \u0026 Access/01 Users/01 Users Quynah.png"
+                       },
+                       {
+                           "filename":  "02 Users Quynah.png",
+                           "src":  "assets/New Screenshots Quynah UI/02 Identity \u0026 Access/01 Users/02 Users Quynah.png"
+                       },
+                       {
+                           "filename":  "03 Users Quynah.png",
+                           "src":  "assets/New Screenshots Quynah UI/02 Identity \u0026 Access/01 Users/03 Users Quynah.png"
+                       },
+                       {
+                           "filename":  "04 Users Quynah.png",
+                           "src":  "assets/New Screenshots Quynah UI/02 Identity \u0026 Access/01 Users/04 Users Quynah.png"
+                       }
+                   ]
+    },
+    {
+        "sectionPath":  "02 Identity \u0026 Access/02 Groups",
+        "titles":  [
+                       "02 Identity \u0026 Access",
+                       "02 Groups"
+                   ],
+        "images":  [
+                       {
+                           "filename":  "01 Groups Quynah.png",
+                           "src":  "assets/New Screenshots Quynah UI/02 Identity \u0026 Access/02 Groups/01 Groups Quynah.png"
+                       },
+                       {
+                           "filename":  "02 Groups Quynah.png",
+                           "src":  "assets/New Screenshots Quynah UI/02 Identity \u0026 Access/02 Groups/02 Groups Quynah.png"
+                       },
+                       {
+                           "filename":  "03 Groups Quynah.png",
+                           "src":  "assets/New Screenshots Quynah UI/02 Identity \u0026 Access/02 Groups/03 Groups Quynah.png"
+                       }
+                   ]
+    },
+    {
+        "sectionPath":  "02 Identity \u0026 Access/03 Identities",
+        "titles":  [
+                       "02 Identity \u0026 Access",
+                       "03 Identities"
+                   ],
+        "images":  [
+                       {
+                           "filename":  "01 Identities.png",
+                           "src":  "assets/New Screenshots Quynah UI/02 Identity \u0026 Access/03 Identities/01 Identities.png"
+                       },
+                       {
+                           "filename":  "02 Identities.png",
+                           "src":  "assets/New Screenshots Quynah UI/02 Identity \u0026 Access/03 Identities/02 Identities.png"
+                       },
+                       {
+                           "filename":  "03 Identities.png",
+                           "src":  "assets/New Screenshots Quynah UI/02 Identity \u0026 Access/03 Identities/03 Identities.png"
+                       },
+                       {
+                           "filename":  "04 Identities.png",
+                           "src":  "assets/New Screenshots Quynah UI/02 Identity \u0026 Access/03 Identities/04 Identities.png"
+                       },
+                       {
+                           "filename":  "05 Identities.png",
+                           "src":  "assets/New Screenshots Quynah UI/02 Identity \u0026 Access/03 Identities/05 Identities.png"
+                       }
+                   ]
+    },
+    {
+        "sectionPath":  "02 Identity \u0026 Access/05 Admin Roles",
+        "titles":  [
+                       "02 Identity \u0026 Access",
+                       "05 Admin Roles"
+                   ],
+        "images":  [
+                       {
+                           "filename":  "01 Admin Roles.png",
+                           "src":  "assets/New Screenshots Quynah UI/02 Identity \u0026 Access/05 Admin Roles/01 Admin Roles.png"
+                       }
+                   ]
+    },
+    {
+        "sectionPath":  "03 Operations/01 Licenses",
+        "titles":  [
+                       "03 Operations",
+                       "01 Licenses"
+                   ],
+        "images":  [
+                       {
+                           "filename":  "01 Licenses.png",
+                           "src":  "assets/New Screenshots Quynah UI/03 Operations/01 Licenses/01 Licenses.png"
+                       }
+                   ]
+    },
+    {
+        "sectionPath":  "03 Operations/02 Organization Units",
+        "titles":  [
+                       "03 Operations",
+                       "02 Organization Units"
+                   ],
+        "images":  [
+                       {
+                           "filename":  "01 Organization Units.png",
+                           "src":  "assets/New Screenshots Quynah UI/03 Operations/02 Organization Units/01 Organization Units.png"
+                       },
+                       {
+                           "filename":  "02 Organization Units.png",
+                           "src":  "assets/New Screenshots Quynah UI/03 Operations/02 Organization Units/02 Organization Units.png"
+                       }
+                   ]
+    },
+    {
+        "sectionPath":  "03 Operations/03 Devices",
+        "titles":  [
+                       "03 Operations",
+                       "03 Devices"
+                   ],
+        "images":  [
+                       {
+                           "filename":  "01 Devices.png",
+                           "src":  "assets/New Screenshots Quynah UI/03 Operations/03 Devices/01 Devices.png"
+                       }
+                   ]
+    },
+    {
+        "sectionPath":  "03 Operations/04 Automations",
+        "titles":  [
+                       "03 Operations",
+                       "04 Automations"
+                   ],
+        "images":  [
+                       {
+                           "filename":  "01 Overview.png",
+                           "src":  "assets/New Screenshots Quynah UI/03 Operations/04 Automations/01 Overview.png"
+                       },
+                       {
+                           "filename":  "02 Workflows.png",
+                           "src":  "assets/New Screenshots Quynah UI/03 Operations/04 Automations/02 Workflows.png"
+                       },
+                       {
+                           "filename":  "03 Triggers.png",
+                           "src":  "assets/New Screenshots Quynah UI/03 Operations/04 Automations/03 Triggers.png"
+                       },
+                       {
+                           "filename":  "04 Actions.png",
+                           "src":  "assets/New Screenshots Quynah UI/03 Operations/04 Automations/04 Actions.png"
+                       }
+                   ]
+    },
+    {
+        "sectionPath":  "03 Operations/05 Data",
+        "titles":  [
+                       "03 Operations",
+                       "05 Data"
+                   ],
+        "images":  [
+                       {
+                           "filename":  "01 PubSub Events.png",
+                           "src":  "assets/New Screenshots Quynah UI/03 Operations/05 Data/01 PubSub Events.png"
+                       },
+                       {
+                           "filename":  "02 Extractors.png",
+                           "src":  "assets/New Screenshots Quynah UI/03 Operations/05 Data/02 Extractors.png"
+                       },
+                       {
+                           "filename":  "03 Router Fan-out.png",
+                           "src":  "assets/New Screenshots Quynah UI/03 Operations/05 Data/03 Router Fan-out.png"
+                       }
+                   ]
+    },
+    {
+        "sectionPath":  "03 Operations/06 Orchestrator",
+        "titles":  [
+                       "03 Operations",
+                       "06 Orchestrator"
+                   ],
+        "images":  [
+                       {
+                           "filename":  "01 State Machine.png",
+                           "src":  "assets/New Screenshots Quynah UI/03 Operations/06 Orchestrator/01 State Machine.png"
+                       },
+                       {
+                           "filename":  "02 Run History.png",
+                           "src":  "assets/New Screenshots Quynah UI/03 Operations/06 Orchestrator/02 Run History.png"
+                       },
+                       {
+                           "filename":  "03 Job Queue.png",
+                           "src":  "assets/New Screenshots Quynah UI/03 Operations/06 Orchestrator/03 Job Queue.png"
+                       },
+                       {
+                           "filename":  "04 Incremental Cycles.png",
+                           "src":  "assets/New Screenshots Quynah UI/03 Operations/06 Orchestrator/04 Incremental Cycles.png"
+                       }
+                   ]
+    },
+    {
+        "sectionPath":  "03 Operations/07 Flow \u0026 Shield",
+        "titles":  [
+                       "03 Operations",
+                       "07 Flow \u0026 Shield"
+                   ],
+        "images":  [
+                       {
+                           "filename":  "01 Flow \u0026 Shield.png",
+                           "src":  "assets/New Screenshots Quynah UI/03 Operations/07 Flow \u0026 Shield/01 Flow \u0026 Shield.png"
+                       }
+                   ]
+    },
+    {
+        "sectionPath":  "04 Data \u0026 Privacy/01 Contacts",
+        "titles":  [
+                       "04 Data \u0026 Privacy",
+                       "01 Contacts"
+                   ],
+        "images":  [
+                       {
+                           "filename":  "01 Contacts.png",
+                           "src":  "assets/New Screenshots Quynah UI/04 Data \u0026 Privacy/01 Contacts/01 Contacts.png"
+                       },
+                       {
+                           "filename":  "02 Contacts.png",
+                           "src":  "assets/New Screenshots Quynah UI/04 Data \u0026 Privacy/01 Contacts/02 Contacts.png"
+                       }
+                   ]
+    },
+    {
+        "sectionPath":  "04 Data \u0026 Privacy/02 Drive",
+        "titles":  [
+                       "04 Data \u0026 Privacy",
+                       "02 Drive"
+                   ],
+        "images":  [
+                       {
+                           "filename":  "01 Drive.png",
+                           "src":  "assets/New Screenshots Quynah UI/04 Data \u0026 Privacy/02 Drive/01 Drive.png"
+                       },
+                       {
+                           "filename":  "02 Drive.png",
+                           "src":  "assets/New Screenshots Quynah UI/04 Data \u0026 Privacy/02 Drive/02 Drive.png"
+                       },
+                       {
+                           "filename":  "03 Drive.png",
+                           "src":  "assets/New Screenshots Quynah UI/04 Data \u0026 Privacy/02 Drive/03 Drive.png"
+                       }
+                   ]
+    },
+    {
+        "sectionPath":  "04 Data \u0026 Privacy/03 Gmail",
+        "titles":  [
+                       "04 Data \u0026 Privacy",
+                       "03 Gmail"
+                   ],
+        "images":  [
+                       {
+                           "filename":  "01 Gmail.png",
+                           "src":  "assets/New Screenshots Quynah UI/04 Data \u0026 Privacy/03 Gmail/01 Gmail.png"
+                       },
+                       {
+                           "filename":  "02 Gmail.png",
+                           "src":  "assets/New Screenshots Quynah UI/04 Data \u0026 Privacy/03 Gmail/02 Gmail.png"
+                       },
+                       {
+                           "filename":  "03 Gmail.png",
+                           "src":  "assets/New Screenshots Quynah UI/04 Data \u0026 Privacy/03 Gmail/03 Gmail.png"
+                       }
+                   ]
+    },
+    {
+        "sectionPath":  "04 Data \u0026 Privacy/04 Oauth",
+        "titles":  [
+                       "04 Data \u0026 Privacy",
+                       "04 Oauth"
+                   ],
+        "images":  [
+                       {
+                           "filename":  "01 Oauth.png",
+                           "src":  "assets/New Screenshots Quynah UI/04 Data \u0026 Privacy/04 Oauth/01 Oauth.png"
+                       },
+                       {
+                           "filename":  "02 Oauth.png",
+                           "src":  "assets/New Screenshots Quynah UI/04 Data \u0026 Privacy/04 Oauth/02 Oauth.png"
+                       }
+                   ]
+    },
+    {
+        "sectionPath":  "04 Data \u0026 Privacy/05 Marketplace",
+        "titles":  [
+                       "04 Data \u0026 Privacy",
+                       "05 Marketplace"
+                   ],
+        "images":  [
+                       {
+                           "filename":  "01 Marketplace.png",
+                           "src":  "assets/New Screenshots Quynah UI/04 Data \u0026 Privacy/05 Marketplace/01 Marketplace.png"
+                       },
+                       {
+                           "filename":  "02 Marketplace.png",
+                           "src":  "assets/New Screenshots Quynah UI/04 Data \u0026 Privacy/05 Marketplace/02 Marketplace.png"
+                       }
+                   ]
+    },
+    {
+        "sectionPath":  "04 Data \u0026 Privacy/06 Data Access/01 Drive Access",
+        "titles":  [
+                       "04 Data \u0026 Privacy",
+                       "06 Data Access",
+                       "01 Drive Access"
+                   ],
+        "images":  [
+                       {
+                           "filename":  "01 Drive Access.png",
+                           "src":  "assets/New Screenshots Quynah UI/04 Data \u0026 Privacy/06 Data Access/01 Drive Access/01 Drive Access.png"
+                       },
+                       {
+                           "filename":  "02 Drive Access.png",
+                           "src":  "assets/New Screenshots Quynah UI/04 Data \u0026 Privacy/06 Data Access/01 Drive Access/02 Drive Access.png"
+                       }
+                   ]
+    },
+    {
+        "sectionPath":  "04 Data \u0026 Privacy/06 Data Access/02 Groups Access",
+        "titles":  [
+                       "04 Data \u0026 Privacy",
+                       "06 Data Access",
+                       "02 Groups Access"
+                   ],
+        "images":  [
+                       {
+                           "filename":  "01 Groups Access.png",
+                           "src":  "assets/New Screenshots Quynah UI/04 Data \u0026 Privacy/06 Data Access/02 Groups Access/01 Groups Access.png"
+                       },
+                       {
+                           "filename":  "02 Groups Access.png",
+                           "src":  "assets/New Screenshots Quynah UI/04 Data \u0026 Privacy/06 Data Access/02 Groups Access/02 Groups Access.png"
+                       }
+                   ]
+    },
+    {
+        "sectionPath":  "04 Data \u0026 Privacy/06 Data Access/03 Orphaned Files",
+        "titles":  [
+                       "04 Data \u0026 Privacy",
+                       "06 Data Access",
+                       "03 Orphaned Files"
+                   ],
+        "images":  [
+                       {
+                           "filename":  "01 0rphaned Files.png",
+                           "src":  "assets/New Screenshots Quynah UI/04 Data \u0026 Privacy/06 Data Access/03 Orphaned Files/01 0rphaned Files.png"
+                       }
+                   ]
+    },
+    {
+        "sectionPath":  "05 Security/01 Security",
+        "titles":  [
+                       "05 Security",
+                       "01 Security"
+                   ],
+        "images":  [
+                       {
+                           "filename":  "01 Analyzers Overview.png",
+                           "src":  "assets/New Screenshots Quynah UI/05 Security/01 Security/01 Analyzers Overview.png"
+                       },
+                       {
+                           "filename":  "02 Consolidated Report.png",
+                           "src":  "assets/New Screenshots Quynah UI/05 Security/01 Security/02 Consolidated Report.png"
+                       },
+                       {
+                           "filename":  "03 Evidence Viewer Details.png",
+                           "src":  "assets/New Screenshots Quynah UI/05 Security/01 Security/03 Evidence Viewer Details.png"
+                       },
+                       {
+                           "filename":  "03 Evidence Viewer.png",
+                           "src":  "assets/New Screenshots Quynah UI/05 Security/01 Security/03 Evidence Viewer.png"
+                       },
+                       {
+                           "filename":  "04 Policy Compliance.png",
+                           "src":  "assets/New Screenshots Quynah UI/05 Security/01 Security/04 Policy Compliance.png"
+                       },
+                       {
+                           "filename":  "05 Domain-Wide Delegation.png",
+                           "src":  "assets/New Screenshots Quynah UI/05 Security/01 Security/05 Domain-Wide Delegation.png"
+                       },
+                       {
+                           "filename":  "06 OAuth App Risk.png",
+                           "src":  "assets/New Screenshots Quynah UI/05 Security/01 Security/06 OAuth App Risk.png"
+                       },
+                       {
+                           "filename":  "07 Login \u0026 Risk Events.png",
+                           "src":  "assets/New Screenshots Quynah UI/05 Security/01 Security/07 Login \u0026 Risk Events.png"
+                       }
+                   ]
+    },
+    {
+        "sectionPath":  "05 Security/02 Alerts",
+        "titles":  [
+                       "05 Security",
+                       "02 Alerts"
+                   ],
+        "images":  [
+                       {
+                           "filename":  "01 Alerts.png",
+                           "src":  "assets/New Screenshots Quynah UI/05 Security/02 Alerts/01 Alerts.png"
+                       }
+                   ]
+    },
+    {
+        "sectionPath":  "05 Security/03 Secrets",
+        "titles":  [
+                       "05 Security",
+                       "03 Secrets"
+                   ],
+        "images":  [
+                       {
+                           "filename":  "01 Secrets.png",
+                           "src":  "assets/New Screenshots Quynah UI/05 Security/03 Secrets/01 Secrets.png"
+                       }
+                   ]
+    },
+    {
+        "sectionPath":  "06 Reporting",
+        "titles":  [
+                       "06 Reporting"
+                   ],
+        "images":  [
+                       {
+                           "filename":  "01 HTML Reports.png",
+                           "src":  "assets/New Screenshots Quynah UI/06 Reporting/01 HTML Reports.png"
+                       },
+                       {
+                           "filename":  "02 JSON Manifests.png",
+                           "src":  "assets/New Screenshots Quynah UI/06 Reporting/02 JSON Manifests.png"
+                       },
+                       {
+                           "filename":  "03 Trendlines.png",
+                           "src":  "assets/New Screenshots Quynah UI/06 Reporting/03 Trendlines.png"
+                       }
+                   ]
+    },
+    {
+        "sectionPath":  "07 Account",
+        "titles":  [
+                       "07 Account"
+                   ],
+        "images":  [
+                       {
+                           "filename":  "01 Billing.png",
+                           "src":  "assets/New Screenshots Quynah UI/07 Account/01 Billing.png"
+                       },
+                       {
+                           "filename":  "02 Account.png",
+                           "src":  "assets/New Screenshots Quynah UI/07 Account/02 Account.png"
+                       }
+                   ]
+    }
+]
